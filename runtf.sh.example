@@ -1,0 +1,8 @@
+#!/bin/bash
+
+terraformNRAccountId="YOUR-ACCOUNT-ID"
+terraformAPIKey="YOUR-USER-API-KEY"
+
+slackChannelURL="https://hooks.slack.com/services/xxxx" #Slack channel Id (if required, can be omitted if removed from main.tf)
+
+bash -c "terraform $1 -var terraformAPIKey=\"${terraformAPIKey}\" -var terraformNRAccountId=\"${terraformNRAccountId}\" -var slackChannelURL=\"${slackChannelURL}\""
