@@ -3,3 +3,4 @@ This example shows how you might use two policies to synthesize a compound alert
 
 ## Usage
 Apply with terraform. The runtf.sh.example script can be used to easily provide the required inputs.  Configure the alerts as you like. The built in demo can be run by sending mock data with moock-issues.sh to send fake issues to the alerts. (in this case use the terms APPLES and PEARS :) )
+x
